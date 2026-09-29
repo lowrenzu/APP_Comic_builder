@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "./styles/design-system.css";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bangers", system-ui, sans-serif;
+  --font-marker: "Permanent Marker", cursive;
+  --color-bg: #090d12;
+  --color-bg-2: #0b1017;
+  --color-bg-3: #0e131b;
+  --color-panel: #0f151d;
+  --color-panel-2: #131b25;
+  --color-panel-3: #182331;
+  --color-hover: #1d2935;
+  --color-line: #1b2530;
+  --color-line-2: #263241;
+  --color-line-3: #344252;
+  --color-fg: #f4f7fa;
+  --color-fg-2: #d5dde6;
+  --color-muted: #b7c3d0;
+  --color-faint: #96a6b6;
+  --color-accent: #ff9d2e;
+  --color-accent-2: #ffb84d;
+  --color-accent-dim: #c96b16;
+  --color-info: #3b82f6;
+  --color-info-2: #38bdf8;
+  --color-ai: #8b5cf6;
+  --color-ai-2: #a78bfa;
+  --color-ok: #35c98b;
+  --color-warn: #f59e0b;
+  --color-danger: #ef4444;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}

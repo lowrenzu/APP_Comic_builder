@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Atelier BD Pro",
+      "hasCanvas": false,
+      "bodyTextLen": 1970,
+      "bodyTextHash": "72a20d26f57302ed4a4c9ac58746fede24a7fcc23f07390d9b10cf5bf81f7c76",
+      "bodyTextPrefix": "ATELIER BD PRO Récit d'expédition Nouvelle page Bibliothèque Enr",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Atelier BD Pro",
+      "hasCanvas": false,
+      "bodyTextLen": 673,
+      "bodyTextHash": "743495c4235fc5dadbc8942157d6e8d35df44cae09bc1f9e5de1fc1341347655",
+      "bodyTextPrefix": "ATELIER Récit d'expédition Nouvelle page Bibliothèque Lecture En",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (1302 -> 1970 chars, hash mismatch)"
+  ]
+}

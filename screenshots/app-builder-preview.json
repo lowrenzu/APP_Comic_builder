@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Atelier BD Pro",
+      "hasCanvas": false,
+      "bodyTextLen": 1302,
+      "bodyTextHash": "ad8ae71f08361831890f79d27f2fe50fc6c318b3ccf9770ac1cfa62645494102",
+      "bodyTextPrefix": "ATELIER BD PRO Récit d'expédition Nouvelle page Bibliothèque Enr",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Atelier BD Pro",
+      "hasCanvas": false,
+      "bodyTextLen": 673,
+      "bodyTextHash": "b87a43c75c03840c3be7c4ca63d1a16bbd06e6cb738c61d6fab383afc215d3e0",
+      "bodyTextPrefix": "ATELIER Récit d'expédition Nouvelle page Bibliothèque Lecture En",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

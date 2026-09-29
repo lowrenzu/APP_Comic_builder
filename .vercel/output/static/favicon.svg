@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Atelier BD Pro">
+  <rect width="32" height="32" rx="7" fill="#090D12"/>
+  <rect x="4" y="4" width="24" height="24" rx="3.2" fill="none" stroke="#FF9D2E" stroke-width="2.25"/>
+  <rect x="8" y="9" width="13" height="8" rx="3.6" fill="#F4F7FA"/>
+  <path d="M11.4 16.6 L9.8 21.2 L14.4 16.6 Z" fill="#F4F7FA"/>
+  <path d="M21.3 20.5l.7-1.55.7 1.55 1.55.7-1.55.7-.7 1.55-.7-1.55-1.55-.7Z" fill="#8B5CF6"/>
+  <circle cx="24.2" cy="9.1" r="1.45" fill="#3B82F6"/>
+</svg>
