@@ -21,9 +21,10 @@ export type AssetCategory =
   | "texture"
   | "bubble"
   | "sfx"
+  | "video"
   | "custom";
 
-export type LayerType = "image" | "text" | "bubble" | "sfx" | "group";
+export type LayerType = "image" | "text" | "bubble" | "sfx" | "group" | "video";
 
 export type ToolId =
   | "select"
@@ -40,6 +41,7 @@ export type ToolId =
   | "text"
   | "bubble"
   | "sfx"
+  | "video"
   | "library"
   | "ai"
   | "cloud";
@@ -68,6 +70,7 @@ export type PagePreset =
   | "cinematic"
   | "strip"
   | "carre"
+  | "shorts"
   | "custom";
 
 export type BubbleStyle =
@@ -115,7 +118,6 @@ export interface MaskShape {
   w: number;
   h: number;
   points?: { x: number; y: number }[];
-  /** Adoucissement du contour, 0–24. */
   feather?: number;
 }
 
@@ -132,6 +134,7 @@ export interface Asset {
   mime: string;
   characterKey?: string;
   viewLabel?: string;
+  duration?: number;
 }
 
 export interface Layer {
@@ -164,7 +167,6 @@ export interface Layer {
   align: TextAlign;
   bubbleStyle: BubbleStyle;
   sfxVariant: string;
-  /** Queue de bulle, en % du cadre (peut dépasser). */
   tailX?: number;
   tailY?: number;
   tailLen?: number;
@@ -172,6 +174,11 @@ export interface Layer {
   contrast?: number;
   tint?: string;
   tintAmount?: number;
+  videoStart?: number;
+  videoEnd?: number;
+  videoLoop?: boolean;
+  videoMuted?: boolean;
+  videoAutoplay?: boolean;
 }
 
 export interface Panel {
@@ -235,5 +242,6 @@ export const CATEGORY_LABEL: Record<AssetCategory | "all", string> = {
   texture: "Textures",
   bubble: "Bulles",
   sfx: "Onomatopées",
+  video: "Vidéos",
   custom: "Custom",
 };
